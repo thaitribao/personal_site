@@ -2,7 +2,7 @@ var express = require('express');
 var app = express(); 
 
 app.get('/', function(req, res){
-    res.send('Hello Word!');
+    res.send('Hello Word from Port 8000!');
 }); 
 
 app.listen(8000, function(){
