@@ -1,8 +1,35 @@
 <% include partials/head %> 
 <% include partials/navbar %> 
     <main> 
-        <div class="jumbotron"> 
-            <h1> Homepage </h1> 
+        <div class="jumbotron">
+        	<div class="container">  
+           		<p>Some summary tag line about who I am, and what I'm looking for.</p> 
+           	</div>
         </div>
+        <!-- Split in 3 (3-4-5)--> 
+        <div class = "row">
+        	<div class="col-md-3">
+        		<!--Profile photo-->
+        		<div class="container"><img src="pictures/black_metal_cat.jpg" alt="Profile Pic" style="width:100%; height:100%">
+				</div>
+        	</div>
+        	<div class="col-md-4">
+        		<!--Contact Info-->
+        		<p><span class="glyphicon glyphicon-home" aria-hidden="true"></span>249 C Perkins Rd, Rochester, NY - 14623</p>
+        		<p><span class="glyphicon glyphicon-phone"></span>860-995-6531</p>
+        	</div>
+        	<div class="col-md-5">
+        		<!-- Skill set in % format--> 
+        	</div>
+       	</div>
+       	<!-- Now split into 2 (3-9)--> 
+       	<div class="row">
+       		<div class="col-md-3">
+       			<!--Left pane: Academic, Honors, ExtCur-->
+       		</div>
+       		<div class="col-md-9">
+       			<!--Right pane: Project + Experience --> 
+       		</div> 
+       	</div>
     </main> 
 <% include partials/footer %> 
